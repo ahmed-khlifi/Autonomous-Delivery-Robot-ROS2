@@ -1,0 +1,6 @@
+# empty request
+---
+string robot_name
+string software_version
+float32 battery_percentage
+string state
