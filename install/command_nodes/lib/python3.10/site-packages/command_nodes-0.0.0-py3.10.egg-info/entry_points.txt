@@ -1,0 +1,3 @@
+[console_scripts]
+command_handler = command_nodes.command_handler:main
+
