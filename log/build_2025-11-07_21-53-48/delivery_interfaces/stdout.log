@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/ament_index/resource_index/package_run_dependencies/delivery_interfaces
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/ament_index/resource_index/parent_prefix_path/delivery_interfaces
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/path.sh
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/path.dsv
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.bash
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.sh
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.zsh
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.dsv
+-- Symlinking: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/package.dsv
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/ament_index/resource_index/packages/delivery_interfaces
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/cmake/delivery_interfacesConfig.cmake
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/cmake/delivery_interfacesConfig-version.cmake
+-- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/package.xml

@@ -1,0 +1,1 @@
+/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces/ament_cmake_environment_hooks/local_setup.bash

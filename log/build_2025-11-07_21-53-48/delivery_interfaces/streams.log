@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces -- -j12 -l12
+[0.046s] Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces -- -j12 -l12
+[0.055s] Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces
+[0.061s] -- Install configuration: ""
+[0.061s] -- Execute custom install script
+[0.062s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/ament_index/resource_index/package_run_dependencies/delivery_interfaces
+[0.062s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/ament_index/resource_index/parent_prefix_path/delivery_interfaces
+[0.062s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/path.sh
+[0.063s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/environment/path.dsv
+[0.063s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.bash
+[0.063s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.sh
+[0.063s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.zsh
+[0.063s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/local_setup.dsv
+[0.063s] -- Symlinking: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/package.dsv
+[0.071s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/ament_index/resource_index/packages/delivery_interfaces
+[0.071s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/cmake/delivery_interfacesConfig.cmake
+[0.072s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/cmake/delivery_interfacesConfig-version.cmake
+[0.072s] -- Up-to-date symlink: /root/Autonomous-Delivery-Robot-ROS2/install/delivery_interfaces/share/delivery_interfaces/package.xml
+[0.073s] Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces

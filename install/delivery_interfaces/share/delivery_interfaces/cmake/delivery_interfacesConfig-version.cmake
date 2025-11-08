@@ -1,0 +1,1 @@
+/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces/ament_cmake_core/delivery_interfacesConfig-version.cmake

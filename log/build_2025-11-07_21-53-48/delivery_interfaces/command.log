@@ -1,0 +1,4 @@
+Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces -- -j12 -l12
+Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces -- -j12 -l12
+Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces
+Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Autonomous-Delivery-Robot-ROS2/build/delivery_interfaces
