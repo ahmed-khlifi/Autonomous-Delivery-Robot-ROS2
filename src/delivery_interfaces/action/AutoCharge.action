@@ -1,0 +1,11 @@
+# Goal
+float32 dock_x
+float32 dock_y
+---
+# Result
+bool   docked
+float32 final_battery
+---
+# Feedback
+float32 progress_percent
+string  phase   # "Searching", "Docking", "Charging"
