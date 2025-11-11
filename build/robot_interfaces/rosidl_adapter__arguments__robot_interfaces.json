@@ -1,0 +1,8 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces:srv/EmergencyStop.srv",
+    "/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces:srv/SystemDiagnostic.srv",
+    "/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces:srv/GetRobotInfo.srv"
+  ]
+}

@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000426] (-) JobUnselected: {'identifier': 'command_nodes'}
+[0.000723] (-) JobUnselected: {'identifier': 'delivery_interfaces'}
+[0.000771] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.000866] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.006774] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.007474] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces'], 'cwd': '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ff74b8de7a81'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Autonomous-Delivery-Robot-ROS2/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('container', 'podman'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.021719] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099785] (-) TimerEvent: {}
+[0.121569] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.122789] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.125404] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.150278] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199921] (-) TimerEvent: {}
+[0.267778] (robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.268019] (robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.268170] (robot_interfaces) StderrLine: {'line': b'  robot_interfaces --arguments-file\n'}
+[0.268250] (robot_interfaces) StderrLine: {'line': b'  /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/rosidl_adapter__arguments__robot_interfaces.json\n'}
+[0.268332] (robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.268403] (robot_interfaces) StderrLine: {'line': b'  /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/rosidl_adapter/robot_interfaces\n'}
+[0.268473] (robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.268554] (robot_interfaces) StderrLine: {'line': b'  /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/rosidl_adapter/robot_interfaces.idls)\n'}
+[0.268632] (robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.268701] (robot_interfaces) StderrLine: {'line': b'\n'}
+[0.268792] (robot_interfaces) StderrLine: {'line': b'  Error processing \'"ERROR", "RETURNING_TO_CHARGE"\' of\n'}
+[0.268858] (robot_interfaces) StderrLine: {'line': b'  \'robot_interfaces/GetRobotInfo_Response\': \'\'"ERROR",\' is an invalid message\n'}
+[0.268966] (robot_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.269036] (robot_interfaces) StderrLine: {'line': b'\n'}
+[0.269104] (robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.269170] (robot_interfaces) StderrLine: {'line': b'\n'}
+[0.269235] (robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.269300] (robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.269364] (robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.269428] (robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.269491] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.269558] (robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.269623] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.269688] (robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.269759] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.269831] (robot_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.269882] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.269966] (robot_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.270023] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string\n'}
+[0.270077] (robot_interfaces) StderrLine: {'line': b'      response_message = parse_message_string(\n'}
+[0.270131] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[0.270196] (robot_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.270250] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[0.270303] (robot_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[0.270355] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[0.270416] (robot_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.270473] (robot_interfaces) StderrLine: {'line': b'\n'}
+[0.270526] (robot_interfaces) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: \'"ERROR",\' is an invalid message\n'}
+[0.270580] (robot_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.270634] (robot_interfaces) StderrLine: {'line': b'\n'}
+[0.270687] (robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.270740] (robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.270794] (robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[0.270846] (robot_interfaces) StderrLine: {'line': b'\n'}
+[0.270906] (robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.270965] (robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.271026] (robot_interfaces) StdoutLine: {'line': b'See also "/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.272831] (robot_interfaces) CommandEnded: {'returncode': 1}
+[0.292204] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 1}
+[0.300011] (-) TimerEvent: {}
+[0.302629] (-) EventReactorShutdown: {}

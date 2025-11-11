@@ -1,0 +1,331 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (-) JobUnselected: {'identifier': 'command_nodes'}
+[0.000663] (-) JobUnselected: {'identifier': 'delivery_interfaces'}
+[0.000849] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.000892] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.007262] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.007976] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces'], 'cwd': '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ff74b8de7a81'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('container', 'podman'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025987] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099728] (-) TimerEvent: {}
+[0.134827] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.136050] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.138468] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.162641] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199821] (-) TimerEvent: {}
+[0.300124] (-) TimerEvent: {}
+[0.390812] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400201] (-) TimerEvent: {}
+[0.500483] (-) TimerEvent: {}
+[0.537737] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600599] (-) TimerEvent: {}
+[0.700970] (-) TimerEvent: {}
+[0.729872] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.746074] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.747297] (robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.772354] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.772531] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.772616] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.772715] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.786191] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.801055] (-) TimerEvent: {}
+[0.810790] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.829678] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.831400] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.834389] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.873890] (robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.884358] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces\n'}
+[0.892551] (robot_interfaces) CommandEnded: {'returncode': 0}
+[0.893148] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[0.894463] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces', '--', '-j12', '-l12'], 'cwd': '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ff74b8de7a81'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('container', 'podman'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.901140] (-) TimerEvent: {}
+[0.939298] (robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.949093] (robot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.958567] (robot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[1.001284] (-) TimerEvent: {}
+[1.101678] (-) TimerEvent: {}
+[1.134728] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.135327] (robot_interfaces) StdoutLine: {'line': b'creating robot_interfaces.egg-info\n'}
+[1.135502] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[1.135648] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[1.135806] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[1.135951] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.138147] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.138591] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[1.165816] (robot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[1.201767] (-) TimerEvent: {}
+[1.302079] (-) TimerEvent: {}
+[1.375031] (robot_interfaces) StdoutLine: {'line': b'[  4%] Built target robot_interfaces__cpp\n'}
+[1.384859] (robot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.385174] (robot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.385275] (robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.402256] (-) TimerEvent: {}
+[1.407671] (robot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/get_robot_info__functions.c.o\x1b[0m\n'}
+[1.407966] (robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/emergency_stop__functions.c.o\x1b[0m\n'}
+[1.408092] (robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/system_diagnostic__functions.c.o\x1b[0m\n'}
+[1.483063] (robot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.502375] (-) TimerEvent: {}
+[1.526579] (robot_interfaces) StdoutLine: {'line': b'[ 19%] Built target robot_interfaces__rosidl_generator_c\n'}
+[1.538017] (robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.538305] (robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.538420] (robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.602495] (-) TimerEvent: {}
+[1.702908] (-) TimerEvent: {}
+[1.764927] (robot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[1.765247] (robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/system_diagnostic__type_support.cpp.o\x1b[0m\n'}
+[1.765850] (robot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/get_robot_info__type_support.cpp.o\x1b[0m\n'}
+[1.803044] (-) TimerEvent: {}
+[1.828039] (robot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/get_robot_info__type_support.cpp.o\x1b[0m\n'}
+[1.828399] (robot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[1.828533] (robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/system_diagnostic__type_support.cpp.o\x1b[0m\n'}
+[1.869286] (robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[1.870225] (robot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/system_diagnostic__type_support.cpp.o\x1b[0m\n'}
+[1.877853] (robot_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/get_robot_info__type_support.cpp.o\x1b[0m\n'}
+[1.903142] (-) TimerEvent: {}
+[1.966527] (robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[2.003733] (-) TimerEvent: {}
+[2.016118] (robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/system_diagnostic__type_support.cpp.o\x1b[0m\n'}
+[2.073835] (robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/get_robot_info__type_support.cpp.o\x1b[0m\n'}
+[2.103876] (-) TimerEvent: {}
+[2.133713] (robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.139835] (robot_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/emergency_stop__type_support.c.o\x1b[0m\n'}
+[2.195665] (robot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/emergency_stop__type_support_c.cpp.o\x1b[0m\n'}
+[2.202107] (robot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/system_diagnostic__type_support.c.o\x1b[0m\n'}
+[2.202400] (robot_interfaces) StdoutLine: {'line': b'[ 59%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[2.203967] (-) TimerEvent: {}
+[2.208538] (robot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/get_robot_info__type_support.c.o\x1b[0m\n'}
+[2.208856] (robot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/system_diagnostic__type_support_c.cpp.o\x1b[0m\n'}
+[2.217458] (robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/get_robot_info__type_support_c.cpp.o\x1b[0m\n'}
+[2.249807] (robot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.270023] (robot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.304714] (-) TimerEvent: {}
+[2.321912] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[2.322247] (robot_interfaces) StdoutLine: {'line': b'[ 70%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.404848] (-) TimerEvent: {}
+[2.461735] (robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.504983] (-) TimerEvent: {}
+[2.541645] (robot_interfaces) StdoutLine: {'line': b'[ 72%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.544649] (robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.605093] (-) TimerEvent: {}
+[2.617983] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.653571] (robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.705204] (-) TimerEvent: {}
+[2.717127] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.736735] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces\n'}
+[2.755112] (robot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.805488] (-) TimerEvent: {}
+[2.905777] (-) TimerEvent: {}
+[3.006044] (-) TimerEvent: {}
+[3.106289] (-) TimerEvent: {}
+[3.206538] (-) TimerEvent: {}
+[3.306848] (-) TimerEvent: {}
+[3.356242] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__py\n'}
+[3.374515] (robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_emergency_stop_s.c.o\x1b[0m\n'}
+[3.374796] (robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_get_robot_info_s.c.o\x1b[0m\n'}
+[3.374903] (robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_system_diagnostic_s.c.o\x1b[0m\n'}
+[3.406971] (-) TimerEvent: {}
+[3.490055] (robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.507205] (-) TimerEvent: {}
+[3.528443] (robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target robot_interfaces__rosidl_generator_py\n'}
+[3.547018] (robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.547213] (robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.547305] (robot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.607326] (-) TimerEvent: {}
+[3.640222] (robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.640487] (robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.647375] (robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.672399] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.672615] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.680523] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.692197] (robot_interfaces) CommandEnded: {'returncode': 0}
+[3.692788] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[3.700714] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces'], 'cwd': '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ff74b8de7a81'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('container', 'podman'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.707404] (-) TimerEvent: {}
+[3.708275] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.708470] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[3.708806] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[3.708990] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[3.709127] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.709255] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[3.709380] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/emergency_stop.h\n'}
+[3.709567] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[3.709710] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__functions.c\n'}
+[3.710184] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__functions.h\n'}
+[3.710595] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__struct.h\n'}
+[3.710864] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.h\n'}
+[3.711097] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__functions.c\n'}
+[3.711425] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__functions.h\n'}
+[3.711761] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__struct.h\n'}
+[3.712069] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.h\n'}
+[3.712325] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__functions.c\n'}
+[3.712641] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__functions.h\n'}
+[3.712940] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__struct.h\n'}
+[3.713166] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.h\n'}
+[3.713402] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/system_diagnostic.h\n'}
+[3.713591] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/get_robot_info.h\n'}
+[3.713971] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[3.714141] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[3.714441] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[3.715410] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.715536] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[3.715641] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[3.715708] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.715876] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[3.716048] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[3.716140] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[3.716278] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_fastrtps_c.h\n'}
+[3.716525] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_fastrtps_c.h\n'}
+[3.716933] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.718036] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.718211] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[3.718321] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[3.718482] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.718616] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[3.718745] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[3.718899] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_introspection_c.h\n'}
+[3.719029] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.c\n'}
+[3.719182] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_introspection_c.h\n'}
+[3.719424] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.c\n'}
+[3.719725] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_introspection_c.h\n'}
+[3.719973] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.c\n'}
+[3.720703] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.721158] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.721301] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[3.721982] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.722103] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[3.722217] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[3.722285] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.722361] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[3.722445] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/emergency_stop.hpp\n'}
+[3.722614] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[3.722708] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__builder.hpp\n'}
+[3.722935] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__struct.hpp\n'}
+[3.723246] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__traits.hpp\n'}
+[3.723539] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.hpp\n'}
+[3.723774] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__builder.hpp\n'}
+[3.724055] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__struct.hpp\n'}
+[3.724351] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__traits.hpp\n'}
+[3.724646] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.hpp\n'}
+[3.724916] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__builder.hpp\n'}
+[3.725259] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__struct.hpp\n'}
+[3.725577] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__traits.hpp\n'}
+[3.726001] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.hpp\n'}
+[3.726252] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/system_diagnostic.hpp\n'}
+[3.726449] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/get_robot_info.hpp\n'}
+[3.726660] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[3.726855] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[3.726968] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.727093] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[3.727168] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[3.727225] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.727375] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps\n'}
+[3.727509] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.727780] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.728117] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.729239] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.729395] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[3.729522] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[3.729595] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[3.729666] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.729782] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.cpp\n'}
+[3.730057] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.730379] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.cpp\n'}
+[3.730698] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.730996] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.cpp\n'}
+[3.731386] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.732335] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.732477] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.733218] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.733359] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[3.733551] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[3.733853] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.734148] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.734368] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.734569] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.734790] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.735002] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces\n'}
+[3.735172] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[3.735296] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv\n'}
+[3.735444] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_emergency_stop.py\n'}
+[3.735779] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_emergency_stop_s.c\n'}
+[3.736057] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_system_diagnostic.py\n'}
+[3.736344] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_system_diagnostic_s.c\n'}
+[3.736678] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_info.py\n'}
+[3.737016] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_info_s.c\n'}
+[3.737340] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py\n'}
+[3.737560] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.737860] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.738181] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.738535] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[3.738969] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.739378] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.739714] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.773970] (robot_interfaces) StdoutLine: {'line': b"Listing '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[3.774162] (robot_interfaces) StdoutLine: {'line': b"Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...\n"}
+[3.774250] (robot_interfaces) StdoutLine: {'line': b"Listing '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...\n"}
+[3.774326] (robot_interfaces) StdoutLine: {'line': b"Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py'...\n"}
+[3.774397] (robot_interfaces) StdoutLine: {'line': b"Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_emergency_stop.py'...\n"}
+[3.774467] (robot_interfaces) StdoutLine: {'line': b"Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_info.py'...\n"}
+[3.774552] (robot_interfaces) StdoutLine: {'line': b"Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_system_diagnostic.py'...\n"}
+[3.778536] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.779306] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.779822] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.780479] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.780908] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.781469] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.781609] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[3.782147] (robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[3.782287] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop.idl\n'}
+[3.782498] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic.idl\n'}
+[3.782666] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo.idl\n'}
+[3.782883] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop.srv\n'}
+[3.783095] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop_Request.msg\n'}
+[3.783350] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop_Response.msg\n'}
+[3.783552] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic.srv\n'}
+[3.783756] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic_Request.msg\n'}
+[3.783932] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic_Response.msg\n'}
+[3.784104] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo.srv\n'}
+[3.784293] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo_Request.msg\n'}
+[3.784441] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo_Response.msg\n'}
+[3.784702] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[3.785045] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[3.785310] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[3.785469] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.785729] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[3.785937] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[3.786179] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[3.786336] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[3.786528] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[3.786685] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[3.786939] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[3.787293] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[3.787524] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.787819] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.788145] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.788548] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.788838] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.789170] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.789442] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.789806] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.790069] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.790328] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.790660] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.790947] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.791273] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.791536] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.791908] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.792170] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.792487] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.792727] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.792928] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.793122] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.793325] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.793488] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.793673] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.793890] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.794075] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[3.794223] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[3.794392] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[3.797047] (robot_interfaces) CommandEnded: {'returncode': 0}
+[3.807495] (-) TimerEvent: {}
+[3.813881] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[3.814492] (-) EventReactorShutdown: {}

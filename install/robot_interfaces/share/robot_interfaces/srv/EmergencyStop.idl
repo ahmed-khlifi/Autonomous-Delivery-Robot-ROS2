@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/EmergencyStop.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct EmergencyStop_Request {
+      @verbatim (language="comment", text=
+        "True to activate emergency stop")
+      boolean emergency;
+    };
+    struct EmergencyStop_Response {
+      @verbatim (language="comment", text=
+        "Whether stop was executed")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Status message")
+      string message;
+    };
+  };
+};

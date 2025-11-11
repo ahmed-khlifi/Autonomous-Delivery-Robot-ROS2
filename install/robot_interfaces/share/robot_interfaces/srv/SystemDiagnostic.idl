@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/SystemDiagnostic.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct SystemDiagnostic_Request {
+      @verbatim (language="comment", text=
+        "True for detailed report")
+      boolean full_report;
+    };
+    struct SystemDiagnostic_Response {
+      boolean system_ok;
+
+      string status_message;
+
+      @verbatim (language="comment", text=
+        "[\"battery\", \"motors\", \"sensors\", \"navigation\"]")
+      sequence<string> components;
+
+      @verbatim (language="comment", text=
+        "[\"OK\", \"WARNING\", \"ERROR\"] corresponding to components")
+      sequence<string> statuses;
+
+      float battery_level;
+
+      int32 error_count;
+    };
+  };
+};

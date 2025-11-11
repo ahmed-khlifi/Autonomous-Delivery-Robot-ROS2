@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/GetRobotInfo.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct GetRobotInfo_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetRobotInfo_Response {
+      @verbatim (language="comment", text=
+        "\"IDLE\", \"NAVIGATING\", \"DELIVERING\", \"CHARGING\", \"ERROR\", \"RETURNING_TO_CHARGE\"")
+      string robot_state;
+
+      float position_x;
+
+      float position_y;
+
+      float battery_level;
+
+      @verbatim (language="comment", text=
+        "Current mission description")
+      string current_mission;
+
+      @verbatim (language="comment", text=
+        "List of active topics")
+      sequence<string> active_topics;
+    };
+  };
+};

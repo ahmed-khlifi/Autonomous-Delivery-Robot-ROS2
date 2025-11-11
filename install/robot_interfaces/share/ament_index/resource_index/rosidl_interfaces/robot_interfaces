@@ -1,0 +1,12 @@
+srv/EmergencyStop.idl
+srv/EmergencyStop.srv
+srv/EmergencyStop_Request.msg
+srv/EmergencyStop_Response.msg
+srv/GetRobotInfo.idl
+srv/GetRobotInfo.srv
+srv/GetRobotInfo_Request.msg
+srv/GetRobotInfo_Response.msg
+srv/SystemDiagnostic.idl
+srv/SystemDiagnostic.srv
+srv/SystemDiagnostic_Request.msg
+srv/SystemDiagnostic_Response.msg

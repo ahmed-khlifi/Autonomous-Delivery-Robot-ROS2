@@ -1,0 +1,283 @@
+[0.009s] Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces
+[0.025s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.390s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.745s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.746s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.772s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.772s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.772s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.772s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.785s] -- Found PythonExtra: .so  
+[0.810s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.831s] -- Added test 'xmllint' to check XML markup files
+[0.834s] -- Configuring done
+[0.873s] -- Generating done
+[0.884s] -- Build files have been written to: /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces
+[0.892s] Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/Autonomous-Delivery-Robot-ROS2/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces
+[0.894s] Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces -- -j12 -l12
+[0.939s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.948s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.958s] [  4%] Built target ament_cmake_python_copy_robot_interfaces
+[1.134s] running egg_info
+[1.135s] creating robot_interfaces.egg-info
+[1.135s] writing robot_interfaces.egg-info/PKG-INFO
+[1.135s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[1.135s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[1.135s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[1.137s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[1.138s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[1.165s] [  4%] Built target ament_cmake_python_build_robot_interfaces_egg
+[1.374s] [  4%] Built target robot_interfaces__cpp
+[1.384s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.384s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.384s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.407s] [ 14%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/get_robot_info__functions.c.o[0m
+[1.407s] [ 17%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/emergency_stop__functions.c.o[0m
+[1.407s] [ 17%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/system_diagnostic__functions.c.o[0m
+[1.482s] [ 19%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[1.526s] [ 19%] Built target robot_interfaces__rosidl_generator_c
+[1.537s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.537s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.538s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.764s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/emergency_stop__type_support.cpp.o[0m
+[1.764s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/system_diagnostic__type_support.cpp.o[0m
+[1.765s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/get_robot_info__type_support.cpp.o[0m
+[1.827s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/get_robot_info__type_support.cpp.o[0m
+[1.828s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/emergency_stop__type_support.cpp.o[0m
+[1.828s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/system_diagnostic__type_support.cpp.o[0m
+[1.869s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/emergency_stop__type_support.cpp.o[0m
+[1.869s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/system_diagnostic__type_support.cpp.o[0m
+[1.877s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/get_robot_info__type_support.cpp.o[0m
+[1.966s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/emergency_stop__type_support.cpp.o[0m
+[2.015s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/system_diagnostic__type_support.cpp.o[0m
+[2.073s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/get_robot_info__type_support.cpp.o[0m
+[2.133s] [ 53%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[2.139s] [ 55%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/emergency_stop__type_support.c.o[0m
+[2.195s] [ 57%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/emergency_stop__type_support_c.cpp.o[0m
+[2.201s] [ 59%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/system_diagnostic__type_support.c.o[0m
+[2.202s] [ 59%] Built target robot_interfaces__rosidl_typesupport_c
+[2.208s] [ 63%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/get_robot_info__type_support.c.o[0m
+[2.208s] [ 63%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/system_diagnostic__type_support_c.cpp.o[0m
+[2.217s] [ 65%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/get_robot_info__type_support_c.cpp.o[0m
+[2.249s] [ 68%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.269s] [ 70%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.321s] [ 70%] Built target robot_interfaces__rosidl_typesupport_cpp
+[2.321s] [ 70%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[2.461s] [ 72%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.541s] [ 72%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[2.544s] [ 74%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.617s] [ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.653s] [ 76%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.716s] [ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.736s] [ 76%] Built target robot_interfaces
+[2.754s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.355s] [ 78%] Built target robot_interfaces__py
+[3.374s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_emergency_stop_s.c.o[0m
+[3.374s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_get_robot_info_s.c.o[0m
+[3.374s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_system_diagnostic_s.c.o[0m
+[3.489s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[3.528s] [ 87%] Built target robot_interfaces__rosidl_generator_py
+[3.546s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.546s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.546s] [ 93%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.640s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.640s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.647s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.672s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.672s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[3.680s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.691s] Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces -- -j12 -l12
+[3.700s] Invoking command in '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces
+[3.707s] -- Install configuration: ""
+[3.708s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[3.708s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[3.708s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[3.708s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.708s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[3.709s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/emergency_stop.h
+[3.709s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[3.709s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__functions.c
+[3.709s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__functions.h
+[3.710s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__struct.h
+[3.710s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.h
+[3.710s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__functions.c
+[3.711s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__functions.h
+[3.711s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__struct.h
+[3.711s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.h
+[3.712s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__functions.c
+[3.712s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__functions.h
+[3.712s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__struct.h
+[3.712s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.h
+[3.713s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/system_diagnostic.h
+[3.713s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/get_robot_info.h
+[3.713s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[3.713s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[3.714s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[3.715s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[3.715s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[3.715s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[3.715s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.715s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[3.715s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[3.715s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h
+[3.715s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_fastrtps_c.h
+[3.716s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_fastrtps_c.h
+[3.716s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.717s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.717s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[3.718s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[3.718s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.718s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[3.718s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[3.718s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_introspection_c.h
+[3.718s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.c
+[3.718s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_introspection_c.h
+[3.719s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.c
+[3.719s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_introspection_c.h
+[3.719s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.c
+[3.720s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[3.720s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.720s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[3.721s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[3.721s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[3.721s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[3.721s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.722s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[3.722s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/emergency_stop.hpp
+[3.722s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[3.722s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__builder.hpp
+[3.722s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__struct.hpp
+[3.722s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__traits.hpp
+[3.723s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.hpp
+[3.723s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__builder.hpp
+[3.723s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__struct.hpp
+[3.724s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__traits.hpp
+[3.724s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.hpp
+[3.724s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__builder.hpp
+[3.724s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__struct.hpp
+[3.725s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__traits.hpp
+[3.725s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.hpp
+[3.725s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/system_diagnostic.hpp
+[3.726s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/get_robot_info.hpp
+[3.726s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[3.726s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[3.726s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.726s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[3.726s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[3.726s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[3.727s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps
+[3.727s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_fastrtps_cpp.hpp
+[3.727s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.727s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.728s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.729s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[3.729s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[3.729s] -- Up-to-date: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[3.729s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp
+[3.729s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/emergency_stop__type_support.cpp
+[3.729s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__rosidl_typesupport_introspection_cpp.hpp
+[3.730s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/system_diagnostic__type_support.cpp
+[3.730s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__rosidl_typesupport_introspection_cpp.hpp
+[3.730s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/get_robot_info__type_support.cpp
+[3.731s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.732s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.732s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[3.732s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.733s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[3.733s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[3.733s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[3.733s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.734s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.734s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.734s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.734s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[3.734s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[3.734s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv
+[3.735s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_emergency_stop.py
+[3.735s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_emergency_stop_s.c
+[3.735s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_system_diagnostic.py
+[3.736s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_system_diagnostic_s.c
+[3.736s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_info.py
+[3.736s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_info_s.c
+[3.737s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py
+[3.737s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.737s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.737s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[3.738s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[3.738s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.739s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.739s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.773s] Listing '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[3.773s] Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[3.773s] Listing '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...
+[3.773s] Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py'...
+[3.774s] Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_emergency_stop.py'...
+[3.774s] Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_get_robot_info.py'...
+[3.774s] Compiling '/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_system_diagnostic.py'...
+[3.778s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.779s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.779s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.780s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.780s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.781s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.781s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[3.781s] -- Set runtime path of "/root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[3.781s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop.idl
+[3.782s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic.idl
+[3.782s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo.idl
+[3.782s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop.srv
+[3.782s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop_Request.msg
+[3.783s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/EmergencyStop_Response.msg
+[3.783s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic.srv
+[3.783s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic_Request.msg
+[3.783s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/SystemDiagnostic_Response.msg
+[3.783s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo.srv
+[3.783s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo_Request.msg
+[3.784s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/srv/GetRobotInfo_Response.msg
+[3.784s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[3.784s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[3.784s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[3.785s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[3.785s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[3.785s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[3.785s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[3.786s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[3.786s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[3.786s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[3.786s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/package.dsv
+[3.786s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[3.787s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[3.787s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.787s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.788s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.788s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.788s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.789s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[3.789s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.789s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[3.790s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.790s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.790s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.790s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.791s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[3.791s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.791s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[3.792s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.792s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.792s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.792s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.793s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.793s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.793s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.793s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.793s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[3.793s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[3.794s] -- Installing: /root/Autonomous-Delivery-Robot-ROS2/install/robot_interfaces/share/robot_interfaces/package.xml
+[3.796s] Invoked command in '/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces

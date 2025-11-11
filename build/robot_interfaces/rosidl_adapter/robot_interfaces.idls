@@ -1,0 +1,3 @@
+/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/EmergencyStop.idl
+/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/SystemDiagnostic.idl
+/root/Autonomous-Delivery-Robot-ROS2/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/GetRobotInfo.idl
