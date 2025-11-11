@@ -1,3 +1,49 @@
+A ROS 2 workspace for autonomous delivery robot with sensor monitoring, mission planning, and custom interfaces.
+
+## 🚀 Quick Start
+
+### Build the workspace
+```bash
+# Make the script executable (first time only)
+chmod +x build.sh
+
+# Build
+sh build.sh
+```
+
+### Run all nodes at once
+```bash
+# Make the script executable (first time only)
+chmod +x run_all_nodes.sh
+
+# Run all nodes
+sh run_all_nodes.sh
+```
+
+### Run individual nodes
+```bash
+# Source the workspace first
+source install/setup.bash
+
+# Then run any node
+ros2 run sensor_nodes battery_monitor
+ros2 run sensor_nodes lidar_simulator
+ros2 run sensor_nodes odometry_simulator
+ros2 run sensor_nodes sensor_processor
+ros2 run mission_nodes mission_planner
+ros2 run command_nodes command_handler
+```
+
+## 📦 Packages
+
+- **delivery_interfaces** - Custom messages, services, and actions
+- **sensor_nodes** - Battery monitor, LIDAR/odometry simulators, sensor processor
+- **mission_nodes** - Mission planner with action client
+- **command_nodes** - Command handler for emergency stop and diagnostics
+
+---
+
+## 📊 Architecture Diagrams
 
 #### Sequence diagram for mission planning and battery-based cancellation
 
