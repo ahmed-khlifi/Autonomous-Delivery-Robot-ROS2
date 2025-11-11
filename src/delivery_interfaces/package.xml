@@ -3,7 +3,7 @@
   <name>delivery_interfaces</name>
   <version>0.1.0</version>
   <description>Messages, services, and actions for the delivery robot</description>
-  <maintainer email="ahmed22khelifi@gmail.com">ahmed</maintainer>
+  <maintainer email="example@mail.com">RoboTeam - Tekip</maintainer>
   <license>Apache-2.0</license>
 
   <!-- REQUIRED for interface packages -->
