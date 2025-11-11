@@ -1,0 +1,8 @@
+mission_planner:
+  ros__parameters:
+    destination:
+      name: Reception
+      x: 5.0
+      y: 3.0
+    battery_low_threshold: 20.0
+    auto_cancel_on_low_battery: true

@@ -1,0 +1,4 @@
+# empty request
+---
+bool ok
+string[] warnings

@@ -1,0 +1,13 @@
+# Goal
+float32 target_x
+float32 target_y
+string  location_name
+---
+# Result
+bool   reached
+string message
+---
+# Feedback
+float32 progress_percent
+float32 eta_seconds
+string  status

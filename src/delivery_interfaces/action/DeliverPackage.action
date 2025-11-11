@@ -1,0 +1,11 @@
+# Goal
+string package_id
+string destination
+---
+# Result
+bool   delivered
+string receipt
+---
+# Feedback
+float32 progress_percent
+string  phase   # "Pickup", "InTransit", "Dropoff"
